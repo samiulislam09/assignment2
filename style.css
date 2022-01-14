@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+
+/* Header section*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 120px;
+
+}
+header .logo{
+    color: #3A3A3A;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+menu ul{
+    display: flex;
+}
+menu ul li a{
+    margin: 7px;
+
+    padding: 10px;
+    font-weight: 500;
+    color: #3A3A3A;
+}
