@@ -280,6 +280,7 @@ footer .social-icons .fab{
 
     .companys .company-img img{
         width: 50px;
+        margin: 5px;
     }
 }
 
@@ -319,6 +320,10 @@ footer .social-icons .fab{
     .cards{
     grid-template-columns: repeat(1, 1fr);
     margin: 5px;
+    }
+    .companys .company-img img{
+        width: 50px;
+        margin: 5px;
     }
   
 }
@@ -369,6 +374,10 @@ header h1{
     }
     .popular-collection h2{
         font-size: 16px;
+    }
+    .companys .company-img img{
+        width: 50px;
+        margin: 5px;
     }
 }
 
