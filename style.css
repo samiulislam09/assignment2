@@ -244,11 +244,31 @@ footer .social-icons .fab{
 
 
 @media (min-width:668px) and (max-width:992px) {
+    header{
+        align-items: center;
+    }
     header menu{
     display: none;
-}
+    }
+    .content{
+    flex-direction: column;
+    text-align: center;
+    }
+    .leftside{
+    width: 404px;
+    }
     .content h1{
-        font-size: 16px;
+    font-size: 16px;
+    }
+    .content h1{
+        font-size: 28px;
+    }
+
+    .content .leftside{
+        order: 2;
+    }
+    .content .rightside{
+        order: 1;
     }
     .rightside img{
         width: 350px;
@@ -268,12 +288,15 @@ footer .social-icons .fab{
     section{
         width: 100%;
     }
+    header{
+        align-items: center;
+    }
     .leftside{
-    width: 100%;
-}
-.rightside img{
-    width: 300px;
-}
+    width: 404px;
+    }
+    .rightside img{
+        width: 300px;
+    }
 
      header menu{
     display: none;
@@ -295,6 +318,7 @@ footer .social-icons .fab{
 
     .cards{
     grid-template-columns: repeat(1, 1fr);
+    margin: 5px;
     }
   
 }
@@ -304,12 +328,19 @@ footer .social-icons .fab{
         width: 100%;
     }
     .leftside{
-    width: 100%;
-}
+    width: 300px;
+    }
 .rightside img{
     width: 300px;
 }
+header{
+    padding: 35px 99px;
+    margin: 0 auto;
 
+}
+header h1{
+    font-size: 16px;
+}
      header menu{
     display: none;
 }
@@ -319,6 +350,8 @@ footer .social-icons .fab{
     }
     .content h1{
         font-size: 28px;
+        width: 100%;
+        padding: 0;
     }
     .companys{
         width: 100%;
