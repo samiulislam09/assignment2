@@ -60,7 +60,9 @@ menu>ul>li>a:hover{
 .leftside{
     width: 50%;
 }
-
+.leftside a{
+    text-decoration: none;
+}
 .content h1{
     font-weight: bold;
     font-size: 52px;
