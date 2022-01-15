@@ -63,6 +63,12 @@ menu>ul>li>a:hover{
 .leftside a{
     text-decoration: none;
 }
+.rightside{
+    background-image: url(./images/Circle\ design.svg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
 .content h1{
     font-weight: bold;
     font-size: 52px;
@@ -238,7 +244,13 @@ footer .social-icons .fab{
     background-color: #787885;
     border-radius: 50%;
     margin: 0 5px;
+    cursor: pointer;
     
+}
+footer .social-icons .fab:hover{
+    color: #E02C6D;
+    transform: scale(1.3);
+    transition: .3s ease;
 }
 
 
